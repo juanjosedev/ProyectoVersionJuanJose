@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+body{
+    background: #eee;
+}
+.formulario{
+    width: 50%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+.titulo{
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: times;
+    border-radius: 7px;
+    border-bottom:2px solid white;
+    padding: 20px;
+
+
+}
+.frmLabel{
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+
+}
+.frmInput{
+    width: 50%;
+    background:rgba(0, 0, 0, 0.7);
+    border: 1px solid  rgba(0, 0, 0, 0.7);
+    color: #eee;
+
+}
+
+select{
+    color:#eee;
+}
+
+.frmSelect {
+    width: 52%;
+    background:rgba(0, 0, 0, 0.7);
+    border: 1px solid  rgba(0, 0, 0, 0.7);
+    color: #eee;
+}
+
+.frmInput:hover , .frmSelect:hover{
+    border: 1px solid #eee;
+
+}
+.frmInput:focus{
+    border:  1px solid #eee;
+}
+
+.frmLabel, .frmSelect, .frmInput, .frmSubmit{
+    
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.formulario input[type="submit"]{
+ 
+    border:none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color:  #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+   
+}
+.formulario input[type="submit"]:hover{
+    cursor:pointer;
+    background: #eee;
+    color: white;
+}
+
+
+
+
